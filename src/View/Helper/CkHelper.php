@@ -79,7 +79,7 @@ class CkHelper extends Helper
               $options['extraPlugins'] .= $plugin_data[0];
             }
 
-            $script .= 'CKEDITOR.plugins.addExternal(';
+            $script .= 'CKEDITOR.plugins.addExternal(\'';
             $script .= $plugin_data[0];
             $script .= '\', \'';
             $script .= $plugin_data[1];
